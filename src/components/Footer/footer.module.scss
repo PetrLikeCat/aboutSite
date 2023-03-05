@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  .footer_about {
+    color: #fff;
+    p {
+      width: 600px;
+    }
+  }
+  .footer_link {
+    img {
+      width: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    margin-top: 70px;
+    .footer_about {
+      color: #fff;
+      p {
+        width: 300px;
+      }
+    }
+    .footer_link {
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

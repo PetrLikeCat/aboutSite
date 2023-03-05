@@ -1,0 +1,17 @@
+.card {
+  margin: 20px 120px;
+  width: 200px;
+  color: #fff;
+  margin-left: 20px;
+}
+.card_img {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 900px) {
+  .portfolio__cart {
+    display: grid;
+    place-content: center;   
+  }
+}

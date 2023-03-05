@@ -1,0 +1,18 @@
+@import "./components/portfolio.scss";
+@import "./components/variable.scss";
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+
+* {
+  font-family: Cyber;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(27, 27, 27);
+  min-height: 100%;
+  width: 100%;
+  // overflow: hidden;
+}

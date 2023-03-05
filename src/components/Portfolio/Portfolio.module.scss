@@ -1,0 +1,19 @@
+.portfolio {
+  margin-top: 70px;
+
+  .portfolio__cart {
+    display: flex;
+    justify-content: center;
+  }
+}
+.card {
+  margin: 20px 30px;
+}
+@media screen and (max-width: 900px) {
+  .portfolio {
+  .portfolio__cart {
+    display: grid;
+    place-content: center;   
+  }
+}
+}

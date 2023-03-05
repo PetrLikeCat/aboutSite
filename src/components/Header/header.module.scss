@@ -1,0 +1,26 @@
+header {
+  margin: 0;
+  position: relative;
+  height: 100vh;
+}
+video {
+  width: 100%;
+  object-fit: cover;
+  height: 80vh;
+}
+.colle {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  h1 {
+    color: azure;
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .colle {
+    display: grid;
+    place-content: center;
+    padding-left: 25px;
+  }
+}
